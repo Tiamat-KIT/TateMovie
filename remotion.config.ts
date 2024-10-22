@@ -5,5 +5,7 @@
 
 import { Config } from "@remotion/cli/config";
 
+Config.overrideHeight(1500)
+Config.overrideWidth(900)
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
